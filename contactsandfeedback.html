@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="style.css"> <!--Linking To External CSS-->
+</head>
+<body>
+<!--This is the logo of the Web page.-->
+<header>
+    <div>
+        <div class="logo"><!--Used div class because I want only this image to be edited in css and not other images.-->
+            <img src="./img/LesothoLogo_White.png" alt="The New Lesotho Logo" width="500px" height="100px"> 
+          
+    <!--navigation bar to different web pages-->
+            <nav>
+                <a href="index.html">Home</a><!--home Page-->
+                <a href="clothing.html">clothing</a><!--Clothing page-->
+                <a href="crafts.html">Crafts</a><!--Crafts page-->
+	            <a href="music.html">Music</a><!--Music page-->
+                <a href="contactsandfeedback.html">Contact us</a><!--Contact us page-->
+            </nav>
+        </div>
+    </div>  
+</header>     
+<hr><br>
+<hr><br><!--Form for contacts page-->
+<h1>Contact Us</h1>
+<form action="submit_form.php" method="POST" class="contact-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="topic">Topic of Interest:</label>
+    <input type="text" id="topic" name="topic">
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+    
+    <button type="submit">Send Message</button>
+</form>
+    <footer>
+        <div class="bottom">
+            <p>&copy; 2025 Basotho Cultural Heritage. Preserving traditions for future generations.</p>
+            <p>Educational project showcasing the rich culture of Lesotho</p>
+        </div>
+    </footer>
+</body>
+</html>
