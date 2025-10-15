@@ -5,7 +5,7 @@
 }
 .logo img{
   width:200px;
-  height:100px;
+  height:auto;
   display: flex;
   justify-content: right;
 }
