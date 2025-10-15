@@ -6,6 +6,7 @@
 .logo img{
   width:100px;
   height:100px;
+  justify-content: right;
 }
 h1,h2{
     font-family: Arial, Helvetica, sans-serif;
